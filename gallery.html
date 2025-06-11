@@ -11,7 +11,7 @@
         }
         .gallery-img {
             width: 100%;
-            height: auto;
+            height: auto; /* preserves original aspect ratio */
             border-radius: 8px;
             box-shadow: 0 4px 8px rgba(0,0,0,0.1);
             transition: transform 0.3s ease;
@@ -22,9 +22,14 @@
     </style>
 </head>
 <body>
-    <!-- Your NavBar -->
     <ul class="nav nav-pills nav justify-content-end" style="padding: 20px; font-size: 18px;">
+        <li class="nav-item"><a class="nav-link" style="color:black;" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" style="color:black;" href="about.html">About Us</a></li>
+        <li class="nav-item"><a class="nav-link" style="color:black;" href="summersessions.html">Summer Sessions</a></li>
+        <li class="nav-item"><a class="nav-link" style="color:black;" href="social.html">Social</a></li>
+        <li class="nav-item"><a class="nav-link" style="color:black;" href="gallery.html">Gallery</a></li>
         <li class="nav-item">
+<<<<<<< HEAD
             <a class="nav-link" style="color:black;" href="index.html">Home</a>
         </li>
         <li class="nav-item">
@@ -41,25 +46,47 @@
         </li>
         <li class="nav-item">
             <a class="nav-link" href="https://docs.google.com/forms/d/e/1FAIpQLScGsWrL7C4oGaxQz39fzmiKiXTgkfBeDyLav-00NXBNVtV08Q/viewform?usp=sharing&ouid=112833180052827161124" style="background-color: blue;">Join Us!</a>
+=======
+            <a class="nav-link active" aria-current="page" href="https://docs.google.com/forms/d/e/1FAIpQLScGsWrL7C4oGaxQz39fzmiKiXTgkfBeDyLav-00NXBNVtV08Q/viewform?usp=sharing&ouid=112833180052827161124" style="background-color: blue;">Join Us!</a>
+>>>>>>> e74b3ff (Updated Gallery)
         </li>
     </ul>
 
-    <!-- Gallery Section -->
     <section class="gallery-section">
         <div class="container">
             <h1 class="text-center mb-5 display-3 fw-bold text-primary">Gallery</h1>
             <div class="row g-4">
-                <!-- Example Images: Replace the src URLs with your own image links -->
+                <!-- 10 Images from Imgur -->
                 <div class="col-lg-4 col-md-6 col-sm-12">
-                    <img src="https://via.placeholder.com/600x400?text=Image+1" alt="Gallery Image 1" class="gallery-img">
+                    <img src="https://i.imgur.com/7cpmQkZ.jpeg" alt="Gallery Image 1" class="gallery-img">
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12">
-                    <img src="https://via.placeholder.com/600x400?text=Image+2" alt="Gallery Image 2" class="gallery-img">
+                    <img src="https://i.imgur.com/ieSldNk.jpeg" alt="Gallery Image 2" class="gallery-img">
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12">
-                    <img src="https://via.placeholder.com/600x400?text=Image+3" alt="Gallery Image 3" class="gallery-img">
+                    <img src="https://i.imgur.com/eIeX4ck.jpeg" alt="Gallery Image 3" class="gallery-img">
                 </div>
-                <!-- Add more images below as needed -->
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <img src="https://i.imgur.com/YULRrph.jpeg" alt="Gallery Image 4" class="gallery-img">
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <img src="https://i.imgur.com/gfW7H3d.jpeg" alt="Gallery Image 5" class="gallery-img">
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <img src="https://i.imgur.com/1W6Ynwf.jpeg" alt="Gallery Image 6" class="gallery-img">
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <img src="https://i.imgur.com/3IKFqZi.jpeg" alt="Gallery Image 7" class="gallery-img">
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <img src="https://i.imgur.com/pF4EN7q.jpeg" alt="Gallery Image 8" class="gallery-img">
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <img src="https://i.imgur.com/3PPNq3m.jpeg" alt="Gallery Image 9" class="gallery-img">
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <img src="https://i.imgur.com/NeobMiq.jpeg" alt="Gallery Image 10" class="gallery-img">
+                </div>
             </div>
         </div>
     </section>
